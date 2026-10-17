@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+config_local.R
+*.csv
+*.xlsx

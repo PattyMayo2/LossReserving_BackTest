@@ -1,7 +1,8 @@
 library(ChainLadder)
 library(openxlsx)
 
-folder <- "C:/Users/milan/Downloads/Cas Data/"
+folder <- "path/to/your/data/"
+if (file.exists("config_local.R")) source("config_local.R")
 
 # Name used in the output files -> input file name (edit to match your files)
 lines <- c(

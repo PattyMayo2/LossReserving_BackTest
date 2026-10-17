@@ -1,7 +1,8 @@
 library(ggplot2)
 library(scales)   # for squish(); installed with ggplot2
 
-folder  <- "C:/Users/milan/Downloads/Cas Data/"
+folder <- "path/to/your/data/"
+if (file.exists("config_local.R")) source("config_local.R")
 figdir  <- paste0(folder, "figures/")
 dir.create(figdir, showWarnings = FALSE)
 

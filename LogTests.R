@@ -1,4 +1,5 @@
-folder <- "C:/Users/milan/Downloads/Cas Data/"
+folder <- "path/to/your/data/"
+if (file.exists("config_local.R")) source("config_local.R")
 
 bt <- read.csv(paste0(folder, "Backtest_AllLines.csv"))
 bt$AccidentYear <- as.character(bt$AccidentYear)
