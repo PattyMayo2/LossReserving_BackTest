@@ -3,7 +3,7 @@ library(scales)   # for squish(); installed with ggplot2
 
 folder <- "path/to/your/data/"
 if (file.exists("config_local.R")) source("config_local.R")
-figdir  <- paste0(folder, "figures/")
+figdir <- "figures/"
 dir.create(figdir, showWarnings = FALSE)
 
 # ---- Load data -------------------------------------------------------------
